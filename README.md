@@ -15,7 +15,7 @@ The FAIR Data Point Populator was created to help people not very familiar with 
 Alternatively, [this](https://colab.research.google.com/drive/1YeARH-hBJbg5Nz2MMnCB3RmS0uvXOHyU?usp=sharing) Jupyter notebook can be used. This still requires a FAIR Data Point to be available.
 
 ## Use
-* The **user** fills in the [FPD](https://github.com/LUMC-BioSemantics/EJP-RD-WP13-FDP-template) or [EJP RD](https://github.com/ejp-rd-vp/resource-metadata-schema/blob/master/template/EJPRD%20Resource%20Metadata%20template.xlsx) template.
+* The **user** fills in the [FDP](https://github.com/LUMC-BioSemantics/EJP-RD-WP13-FDP-template) or [EJP RD](https://github.com/ejp-rd-vp/resource-metadata-schema/blob/master/template/EJPRD%20Resource%20Metadata%20template.xlsx) template.
 * The **user** uploads the template to the metadata repository (or hands it over to the administrator for the administrator to upload).
 * The **administrator** checks the metadata, and in the case of the FDP template, extracts a datasets.csv and distributions.csv file.
 * The **administrator** sets the target metadata and target catalog in the config.yml file (see [the config file](https://github.com/jdwijnbergen/fdp-populator/blob/main/config.yml) for an example), and starts the workflow using the start workflow button.
